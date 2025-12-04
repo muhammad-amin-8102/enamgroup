@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Sen';
+    src: url('Sen-ExtraBold.eot');
+    src: url('Sen-ExtraBold.eot@') format('embedded-opentype'),
+        url('Sen-ExtraBold.woff2.html') format('woff2'),
+        url('Sen-ExtraBold.woff') format('woff'),
+        url('Sen-ExtraBold.ttf') format('truetype'),
+        url('Sen-ExtraBold.svg') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sen';
+    src: url('Sen-Regular.eot');
+    src: url('Sen-Regular.eot@') format('embedded-opentype'),
+        url('Sen-Regular.woff2.html') format('woff2'),
+        url('Sen-Regular.woff') format('woff'),
+        url('Sen-Regular.ttf') format('truetype'),
+        url('Sen-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sen';
+    src: url('Sen-Bold.eot');
+    src: url('Sen-Bold.eot@') format('embedded-opentype'),
+        url('Sen-Bold.woff2.html') format('woff2'),
+        url('Sen-Bold.woff') format('woff'),
+        url('Sen-Bold.ttf') format('truetype'),
+        url('Sen-Bold.svg') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
