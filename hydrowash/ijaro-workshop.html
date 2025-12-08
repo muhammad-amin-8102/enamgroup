@@ -1,0 +1,1087 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Enam Rubber</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" type="image/x-icon" href="public/imgs/logo/favicon.png">
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="public/fonts/sen/sen.css">
+    <link rel="stylesheet" href="public/fonts/Mitr/Mitr.css">
+    <link rel="stylesheet" href="public/css/bootstrap.css">
+    <link rel="stylesheet" href="public/css/animate.css">
+    <link rel="stylesheet" href="public/css/swiper-bundle.css">
+    <link rel="stylesheet" href="public/css/slick.css">
+    <link rel="stylesheet" href="public/css/magnific-popup.css">
+    <link rel="stylesheet" href="public/css/font-awesome-pro.css">
+    <link rel="stylesheet" href="public/css/spacing.css">
+    <link rel="stylesheet" href="public/css/custom-animation.css">
+    <link rel="stylesheet" href="public/css/main2.css">
+    <link rel="stylesheet" href="public/css/lightbox.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css">
+
+    <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/map.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/geodata/worldLow.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+    
+</head>
+
+<body id="body" class="tp-magic-cursor">    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .grid--content .column--wrapper {
+            display: column;
+            columns: 4;
+            gap: 20;
+            break-inside: avoid;
+        }
+
+        .post--item {
+            break-inside: avoid;
+        }
+
+        .post--masonry {
+            display: block;
+            text-align: center;
+            font-weight: bold;
+            font-size: 30px;
+            margin-top: 100px;
+            margin-bottom: 30px;
+        }
+
+        .grid--content .column--wrapper .post--item img {
+            box-shadow: 0 0 3px 2px #00000021;
+            border-radius: 10px;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        .grid--content .post--title {
+            font-weight: bold;
+            color: #1d2327;
+        }
+
+        .grid--content .post-user {
+            margin: 10px 0;
+        }
+
+        .grid--content .post-user a {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+        }
+
+        .grid--content .post-user img {
+            border-radius: 100% !important;
+            max-width: 35px;
+            max-height: 35px;
+            margin: 0;
+            margin-bottom: 0 !important;
+        }
+
+        .grid--content .post-user span {
+            margin-left: 10px;
+            color: #949494;
+            font-size: 14px;
+        }
+
+        .grid--content .post-user a:hover {
+            background-color: #f0f0f0;
+            border-radius: 50px;
+        }
+
+        .grid--content {
+            width: 100%;
+            max-width: 1366px;
+            margin: 0 auto;
+            box-sizing: border-box;
+            padding: 40px;
+            /* box-shadow: 0 0 30px 10px #00000017; */
+        }
+
+        @supports (grid-template-rows: masonry) {
+            .grid--content .column--wrapper {
+                display: grid;
+                grid-template-columns: (repeat(4), 1fr);
+                grid-template-rows: masonry;
+                grid-auto-flow: dense;
+                align-tracks: stretch;
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            .grid--content .post-user img {
+                max-width: 20px;
+                max-height: 20px;
+            }
+
+            .grid--content .post-user span {
+                font-size: 11px;
+            }
+
+            .grid--content .post--title {
+                font-size: 12px;
+            }
+
+            .grid--content .column--wrapper {
+                columns: 3;
+            }
+        }
+    </style>
+
+
+
+
+
+    <!-- pre loader area start -->
+    <div id="loading" class="preloader-wrap">
+        <div class="preloader-2 text-center">
+            <span class="line line-1"></span>
+            <span class="line line-2"></span>
+            <span class="line line-3"></span>
+            <span class="line line-4"></span>
+            <span class="line line-5"></span>
+            <span class="line line-6"></span>
+            <span class="line line-7"></span>
+            <span class="line line-8"></span>
+            <span class="line line-9"></span>
+            <div class="loader-text">Loading ...</div>
+        </div>
+    </div>
+    <!-- pre loader area end -->
+
+    <!-- Begin magic cursor
+   ======================== -->
+    <div id="magic-cursor">
+        <div id="ball"></div>
+    </div>
+    <!-- End magic cursor -->
+
+    <!-- tp-offcanvus-area-end -->
+    <div class="tp-offcanvas-area">
+        <div class="tp-offcanvas-wrapper">
+            <div class="tp-offcanvas-top d-flex align-items-center justify-content-between">
+                <div class="tp-offcanvas-logo">
+                    <a href="enam-workshop.html#">
+                        <img class="logo-1" src="public/img/enamicon.png" alt="">
+                        <img class="logo-2" src="public/img/enamicon.png" alt="">
+                    </a>
+                </div>
+                <div class="tp-offcanvas-close">
+                    <button class="tp-offcanvas-close-btn">
+                        <svg width="37" height="38" viewBox="0 0 37 38" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.19141 9.80762L27.5762 28.1924" stroke="currentColor" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M9.19141 28.1924L27.5762 9.80761" stroke="currentColor" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="tp-offcanvas-main">
+                
+                <div class="tp-main-menu-mobile d-xl-none"></div>
+                <div class="tp-offcanvas-gallery">
+                    <div class="row gx-2">
+                        <div class="col-md-4 col-4 mb-3">
+                            <a href="cow-mats.html">
+                                <div class="tp-offcanvas-gallery-img fix">
+                                    <img src="public/imgs/menu/cow.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 col-4 mb-3">
+                            <a href="gym-mats.html">
+                                <div class="tp-offcanvas-gallery-img fix">
+                                    <img src="public/imgs/menu/gym.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 col-4 mb-3">
+                            <a href="hollow-mats.html">
+                                <div class="tp-offcanvas-gallery-img fix">
+                                    <img src="public/imgs/menu/hollow.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 col-4 mb-3">
+                            <a href="anti-fatigue-mats.html">
+                                <div class="tp-offcanvas-gallery-img fix">
+                                    <img src="public/imgs/menu/anti-fatigue.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 col-4 mb-3">
+                            <a href="hydrowash-rolls.html">
+                                <div class="tp-offcanvas-gallery-img fix">
+                                    <img src="public/imgs/menu/roll.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tp-offcanvas-contact">
+                    <h3 class="tp-offcanvas-title sm">Contact Us</h3>
+
+                    <ul>
+                        <li><a href="tel:+919316081913">+91 93160 81913</a></li>
+                        <li><a href="https://www.enamcorporation.com/cdn-cgi/l/email-protection#0d68757d627f794d64676c7f62236463"><span class="__cf_email__" data-cfemail="b7d2cfc7d8c5c3f7deddd6c5d899ded9">[email&#160;protected]</span></a></li>
+                        <li><a href="javascript:void(0)">Dariyalal Square, At- Sakt, above HDFC Bank, Umiya Nagar,
+                                Sanala, Morbi, Gujarat 363641</a></li>
+                    </ul>
+                </div>
+                <div class="tp-offcanvas-social">
+                    <h3 class="tp-offcanvas-title sm">Follow Us</h3>
+                    <ul>
+                        <li>
+                            <a
+                                href="https://www.linkedin.com/in/ketan-patel-enam-group-rubber-mat-stablemat-cowmat-gymmat-cowcomfort-equinemats-rubberflooring/">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/enamcorporation">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://in.pinterest.com/enamcorporation/">
+                                <i class="fa-brands fa-pinterest"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://x.com/EnamCorporation">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="body-overlay"></div>
+    <!-- tp-offcanvus-area-end -->
+
+
+    <!-- Switcher Area End -->
+
+    <header class="tp-header-height">
+
+        <!-- header top area start -->
+        <div id="header-sticky" class="tp-header-area tp-header-mob-space tp-transparent pl-60 pr-60 z-index-9">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-xl-2 col-lg-2 col-6">
+                        <div class="tp-header-logo">
+                            <a class="logo-1" href="../rubber.html"><img
+                                    src="public/img/enamicon.png" alt=""></a>
+                            <a class="logo-2" href="../rubber.html"><img
+                                    src="public/img/enamicon.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-9 col-lg-9 d-none d-xl-block">
+                        <div class="tp-header-menu header-main-menu text-center">
+                            <nav class="tp-main-menu-content">
+                                <ul>
+                                    <li class="">
+                                        <a href="../rubber.html">Home</a>
+                                    </li>
+                                    <li class="has-dropdown">
+                                        <a href="about.html">About</a>
+                                        <ul class="tp-submenu submenu">
+                                            <li><a href="about.html">About Us</a></li>
+                                            <li><a href="why-enam.html">Why Enam</a></li>
+                                            <li><a href="enam-workshop.html">Enam Workshop</a></li>
+                                            <li><a href="dealership.html">Dealership</a></li>
+                                            <li><a href="csr-activities.html">CSR Activities</a></li>
+                                            <li><a href="testimonials.html">Testimonial</a></li>
+                                            <li><a href="certificates.html">Certificates</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-dropdown">
+                                        <a href="collection.html">Collection</a>
+                                        <div class="tp-submenu submenu tp-mega-menu">
+                                            <div class="tp-megamenu-wrapper">
+                                                <div class="row gx-50">
+                                                    <div class="col-xl-5">
+                                                        <div class="tp-megamenu-list-box">
+                                                            <div class="tp-megamenu-list tp-megamenu-list-2">
+                                                                <h4 class="tp-megamenu-title">Our Products</h4>
+                                                                <div class="tp-megamenu-list-wrap">
+                                                                    <ul>
+
+                                                                        <li class="format_title_size"
+                                                                            data-src="/hydrowash/public/imgs/menu/cow.jpg">
+                                                                            <a href="cow-mats.html">Cow Mats
+                                                                            </a>
+                                                                        </li>
+                                                                        <li class="format_title_size"
+                                                                            data-src="/hydrowash/public/imgs/menu/gym.jpg">
+                                                                            <a href="gym-mats.html">Gym Mats
+                                                                            </a>
+                                                                        </li>
+                                                                        <li class="format_title_size"
+                                                                            data-src="/hydrowash/public/imgs/menu/hollow.jpg">
+                                                                            <a href="hollow-mats.html">Hollow
+                                                                                Mats </a>
+                                                                        </li>
+                                                                        <li class="format_title_size"
+                                                                            data-src="/hydrowash/public/imgs/menu/anti-fatigue.jpg">
+                                                                            <a href="anti-fatigue-mats.html">Anti
+                                                                                Fatigue Mats </a>
+                                                                        </li>
+                                                                        <li class="format_title_size"
+                                                                            data-src="/hydrowash/public/imgs/menu/roll.jpg">
+                                                                            <a href="hydrowash-rolls.html">Rubber
+                                                                                Roll</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-7">
+                                                        <div class="tp-megamenu-shop-style">
+                                                            <div class="tp-shop-banner-left p-relative">
+                                                                <div class="tp-shop-banner-thumb">
+                                                                    <img class="prev_img"
+                                                                        src="public/imgs/menu/roll.jpg"
+                                                                        alt="">
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class=""><a href="export.html">Export</a></li>
+                                    <li class=""><a href="catalogue.html">E-Catalogue</a></li>
+                                    <li class=""><a href="blog.html">Blogs</a></li>
+                                    <li class=""><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-xl-1 col-lg col-6">
+                        <div class="tp-header-bar text-end">
+                            <button class="tp-offcanvas-open-btn">
+                                <span></span>
+                                <span></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- header top area end -->
+
+    </header>
+
+
+
+
+    <div id="smooth-wrapper">
+        <div id="smooth-content">
+            <main>
+                    <!-- hero area start -->
+    <div class="ab-inner-hero-area ab-inner-hero-bg p-relative banner_section"
+        data-background="/hydrowash/public/imgs/banner/about.jpg">
+        <div class="container container-1480">
+            <div class="row">
+                <div class="col-xl-8">
+                    <div class="ab-inner-hero-title-box" data-lag="0.2" data-stagger="0.08">
+                        <span class="ab-inner-hero-subtitle"><a href="../rubber.html"> Home </a> / <a href="about.html">About</a> / Enam Workshop</span>
+                        <h1 class="ab-inner-hero-title tp-char-animation">Enam Workshop</h1>
+                        <p>See innovation and precision at our advanced workshop.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- hero area end -->
+
+    <!-- hero area start -->
+    <div class="tm-hero-area tm-hero-ptb workshop_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="tm-hero-content">
+                        <span class="tm-hero-subtitle">A Glimpse</span>
+                        <h4 class="tm-hero-title tp-char-animation">Inside  <span>Enam</span></h4>
+                    </div>
+                    <div class="tm-hero-text tp_title_anim">
+                        <p>Explore Enam through captivating images that showcase our state-of-the-art facility, diverse product range, and the dedicated people behind our success. Our facility is equipped with cutting-edge technology, ensuring precision and quality in every product we make. From the production floor to our finished products, see the meticulous care and craftsmanship that go into each item.
+                        </p>
+                        <p>Meet the talented individuals who drive our innovation and commitment to excellence. This visual tour offers a glimpse into the heart of Enam, where every detail is designed to deliver superior rubber solutions and exceptional service.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- hero area end -->
+
+    <div class="grid--content">
+        <div class="column--wrapper">
+                                                                                                        <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/0377.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/0377.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/0469.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/0469.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/15.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/15.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/2.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/2.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/25-bundle-4x6ft-rubber-natural.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/25-bundle-4x6ft-rubber-natural.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/34.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/34.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/35.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/35.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/Exhibition.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/Exhibition.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/Exhibition2.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/Exhibition2.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/Exhibition3.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/Exhibition3.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/Exhibition4.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/Exhibition4.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/Exhibition5.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/Exhibition5.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/Exhibition6.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/Exhibition6.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/Exhibition7.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/Exhibition7.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/ezgif-frame-001-Copy.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/ezgif-frame-001-Copy.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/ezgif-frame-065.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/ezgif-frame-065.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/ezgif-frame-102.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/ezgif-frame-102.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/Godown&#32;3.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/Godown&#32;3.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/Godown&#32;4.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/Godown&#32;4.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/Enam&#32;Rubber&#32;Mats&#32;2.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/Enam&#32;Rubber&#32;Mats&#32;2.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/IMG20210907151202.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/IMG20210907151202.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/IMG20210907151252.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/IMG20210907151252.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/IMG20210907151318.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/IMG20210907151318.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/IMG20210907151345.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/IMG20210907151345.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/IMG20210907151452.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/IMG20210907151452.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/IMG20210907215922.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/IMG20210907215922.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/IMG20210907223030.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/IMG20210907223030.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/IMG20210907223059.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/IMG20210907223059.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/IMG20210907223121.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/IMG20210907223121.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/IMG20210907223140.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/IMG20210907223140.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/IMG20210907223145.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/IMG20210907223145.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/IMG20240513115817.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/IMG20240513115817.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/IMG20240513115948.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/IMG20240513115948.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/IMG20240513120215.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/IMG20240513120215.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/IMG20240513134921.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/IMG20240513134921.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/IMG20240513135045.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/IMG20240513135045.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/IMG20240513135702.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/IMG20240513135702.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/IMG20240513141941.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/IMG20240513141941.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/IMG20240513145600.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/IMG20240513145600.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/IMG20240514182222.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/IMG20240514182222.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/IMG20240514184157.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/IMG20240514184157.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/IMG20240514184221.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/IMG20240514184221.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/IMG_20210907_151550.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/IMG_20210907_151550.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/IMG_20230712_135142.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/IMG_20230712_135142.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/IMG_20240519_191712.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/IMG_20240519_191712.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/IMG_20240519_191719.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/IMG_20240519_191719.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/IMG_20240519_193715.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/IMG_20240519_193715.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/IMG_20240519_194759.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/IMG_20240519_194759.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/International&#32;Tours&#32;2.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/International&#32;Tours&#32;2.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/International&#32;Tours&#32;3.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/International&#32;Tours&#32;3.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/International-Tours.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/International-Tours.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/PhotoRoom-20230712_135451.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/PhotoRoom-20230712_135451.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/PhotoRoom-20230712_135636.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/PhotoRoom-20230712_135636.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/PhotoRoom-20230712_135903.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/PhotoRoom-20230712_135903.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/PhotoRoom-20230712_140212.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/PhotoRoom-20230712_140212.jpg" alt="">
+                        </a>
+                    </div>
+                                                                                                                                                    <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/WhatsApp&#32;Image&#32;2024-01-15&#32;at&#32;16.13.27_bb190d1f.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/WhatsApp&#32;Image&#32;2024-01-15&#32;at&#32;16.13.27_bb190d1f.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/WhatsApp&#32;Image&#32;2024-05-20&#32;at&#32;12.06.23_ec56ad00.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/WhatsApp&#32;Image&#32;2024-05-20&#32;at&#32;12.06.23_ec56ad00.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/WhatsApp&#32;Image&#32;2024-05-20&#32;at&#32;12.06.24_18774de4.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/WhatsApp&#32;Image&#32;2024-05-20&#32;at&#32;12.06.24_18774de4.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/WhatsApp&#32;Image&#32;2024-05-20&#32;at&#32;12.06.25_45f597e9.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/WhatsApp&#32;Image&#32;2024-05-20&#32;at&#32;12.06.25_45f597e9.jpg" alt="">
+                        </a>
+                    </div>
+                                                                <div class="post--item">
+                        <a rel="lightbox[16101]" onclick="myLightbox.start(this);return false;" href="public/imgs/workshop/WhatsApp-Image-2021-09-08-at-11.26.jpg" class="icon-btn">
+                            <img src="public/imgs/workshop/WhatsApp-Image-2021-09-08-at-11.26.jpg" alt="">
+                        </a>
+                    </div>
+                                    </div>
+    </div>
+    
+    <!-- contact area start -->
+ <div class="tp-cta-area catalogue_sec_for_all black-bg pt-120 pb-120 z-index fix">
+    <div class="container">
+        <div class="col-xl-12">
+            <div class="tp-cta-title-box p-relative">
+                <h4 class="tp-cta-title cta-text">Access Our
+                    <span> Catalogue</span>
+                </h4>
+                <p class="tp_fade_bottom">
+                    Download our catalogue to get detailed product information instantly. Explore specifications, features, and options to find exactly what you need.
+                </p>
+                <div class="tp-cta-icon">
+                    <img src="public/img/home-03/cta/cta-1.png" alt="">
+                </div>
+                <div class="tp-cta-btn-box">
+                    <a class="tp-btn-zikzak p-relative" href="https://www.enamcorporation.com/hydrowash/imgs/Enam-Rubber-Mats-Catalogs-1.pdf" download>
+                        <span class="zikzak-content">
+                            Download <br> Now
+                            <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16.2434 8.16465C16.3866 8.31677 16.4668 8.52224 16.4668 8.73637C16.4668 8.9505 16.3866 9.15597 16.2434 9.30811L9.38818 16.53C9.24196 16.6773 9.04774 16.7599 8.84546 16.7607C8.74439 16.7602 8.64426 16.7399 8.55031 16.7005C8.41169 16.6392 8.2934 16.5359 8.21038 16.4038C8.12736 16.2717 8.0833 16.1167 8.08378 15.9583V9.53881H1.22849C1.02648 9.53881 0.832739 9.45428 0.689893 9.30378C0.547047 9.15329 0.466797 8.9492 0.466797 8.73637C0.466797 8.52356 0.547047 8.31945 0.689893 8.16897C0.832739 8.01848 1.02648 7.93395 1.22849 7.93395H8.08378V1.51445C8.0833 1.35603 8.12736 1.20101 8.21038 1.06892C8.2934 0.936828 8.41169 0.833584 8.55031 0.772196C8.691 0.714385 8.84436 0.699718 8.99264 0.729895C9.14092 0.760071 9.27805 0.833857 9.38818 0.942715L16.2434 8.16465Z" fill="#19191A"></path>
+                            </svg>
+                        </span>
+                        <svg class="anim" width="160" height="161" viewBox="0 0 160 161" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M73.023 3.97715C76.6245 -0.442502 83.3755 -0.442502 86.977 3.97715L88.8998 6.33684C91.6265 9.68311 96.3451 10.6222 100.145 8.57493L102.813 7.13788C107.829 4.43534 114.063 7.01587 115.701 12.4734L116.588 15.4276C117.828 19.5569 121.822 22.227 126.111 21.7943L129.147 21.4881C134.809 20.9169 139.573 25.6784 139.005 31.3408L138.693 34.4529C138.263 38.7355 140.926 42.7227 145.046 43.9669L148.008 44.8612C153.449 46.5041 156.024 52.7165 153.34 57.7265L151.854 60.5019C149.824 64.2914 150.757 68.9873 154.082 71.7123L156.507 73.6991C160.9 77.2998 160.9 84.0202 156.507 87.6209L154.082 89.6077C150.757 92.3327 149.824 97.0286 151.854 100.818L153.34 103.593C156.024 108.604 153.449 114.816 148.008 116.459L145.046 117.353C140.926 118.597 138.263 122.585 138.693 126.867L139.005 129.979C139.573 135.642 134.809 140.403 129.147 139.832L126.111 139.526C121.822 139.093 117.828 141.763 116.588 145.892L115.701 148.847C114.063 154.304 107.829 156.885 102.813 154.182L100.145 152.745C96.3451 150.698 91.6265 151.637 88.8998 154.983L86.9769 157.343C83.3755 161.762 76.6245 161.762 73.023 157.343L71.1002 154.983C68.3735 151.637 63.6549 150.698 59.8547 152.745L57.1873 154.182C52.1708 156.885 45.9372 154.304 44.2988 148.847L43.4119 145.892C42.1722 141.763 38.1783 139.093 33.8887 139.526L30.8534 139.832C25.1913 140.403 20.4271 135.642 20.995 129.979L21.3071 126.867C21.7367 122.585 19.0739 118.597 14.9536 117.353L11.9917 116.459C6.55087 114.816 3.97613 108.604 6.65971 103.593L8.14628 100.818C10.1761 97.0286 9.24252 92.3327 5.91763 89.6077L3.49338 87.6209C-0.900073 84.0202 -0.900072 77.2998 3.49338 73.6991L5.91763 71.7123C9.24252 68.9873 10.1761 64.2914 8.14628 60.5019L6.65971 57.7265C3.97613 52.7165 6.55087 46.5041 11.9917 44.8612L14.9536 43.9669C19.0739 42.7227 21.7367 38.7355 21.3071 34.4529L20.995 31.3408C20.4271 25.6784 25.1913 20.9169 30.8534 21.4881L33.8887 21.7943C38.1783 22.227 42.1722 19.5569 43.4119 15.4275L44.2988 12.4734C45.9372 7.01587 52.1708 4.43534 57.1873 7.13788L59.8547 8.57493C63.6549 10.6222 68.3735 9.68311 71.1002 6.33684L73.023 3.97715Z" fill="white"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- contact area end -->
+    <div class="ab-funfact-area footer_top_form">
+    <div class="container container-1480">
+        <div class="row">
+            <div class="col-xl-5">
+                <div class="ab-funfact-title-box">
+                    <span class="ab-inner-subtitle mb-25">
+                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M12 0C12 3.0432 9.53292 5.5102 6.48975 5.5102C6.48975 2.46701 8.95677 0 12 0Z"
+                                fill="currentcolor"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M0.0231934 0.0231209C3.06639 0.0231209 5.5334 2.49015 5.5334 5.53333C2.4902 5.53333 0.0231934 3.0663 0.0231934 0.0231209Z"
+                                fill="currentcolor"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M6.48975 6.4898C9.53294 6.4898 12 8.95682 12 12C8.95675 12 6.48975 9.53297 6.48975 6.4898Z"
+                                fill="currentcolor"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M5.5102 6.48981C5.5102 9.533 3.04318 12 0 12C0 8.95681 2.46703 6.48981 5.5102 6.48981Z"
+                                fill="currentcolor"></path>
+                        </svg>
+                        Let's talk about your needs.
+                    </span>
+                    <h4 class="tp-service-4-title mb-20">Inquire Now <br> <span>For Personalized Assistance</span></h4>
+                </div>
+            </div>
+            <div class="col-xl-6 offset-lg-1">
+                <form action='https://forms.zohopublic.in/enaminternational/form/EnamCorporationWebsiteEnquiryForm/formperma/CpUev_iVhvfL0BhgGQPhdkpUyjCSvNP1zCKBQU3R1IA/htmlRecords/submit'
+                    name='form' method='POST' onSubmit='javascript:document.charset="UTF-8"; return zf_ValidateAndSubmit();'
+                    accept-charset='UTF-8' enctype='multipart/form-data' id='form'><input type="hidden" name="zf_referrer_name" value="">
+                    <input type="hidden" name="zf_redirect_url" value="http://www.enamcorporation.com/hydrowash/enam-workshop">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="cn-contactform-input mb-25">
+                                <label>Name:<sup class="text-danger">*</sup></label>
+                                <input type="text" name="SingleLine" checktype="c1" value="" maxlength="255" fieldType=1 placeholder="Enter Name" required/>
+                            </div>
+                        </div>
+                                                <div class="col-lg-6">
+                            <div class="cn-contactform-input mb-25">
+                                <label>Email:<sup class="text-danger">*</sup></label>
+                                <input fieldType=9 type="text" maxlength="255" name="Email" checktype="c5" value="" placeholder="Enter Email" required />
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-4">
+                            <div class="cn-contactform-input mb-25">
+                                <label>Code:<sup class="text-danger">*</sup> </label>
+                                <input type="text" compname="PhoneNumber_countrycodeval" name="PhoneNumber_countrycodeval" checktype="c7" maxlength="10" phoneFormat="1" isCountryCodeEnabled=true id="international_PhoneNumber_countrycodeval" valType="code" placeholder="Code" required />
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-8">
+                            <div class="cn-contactform-input mb-25">
+                                <label>Phone/WhatsApp:<sup class="text-danger">*</sup> </label>
+                                <input type="text" compname="PhoneNumber" name="PhoneNumber_countrycode" maxlength="20" checktype="c7" value="" phoneFormat="1" isCountryCodeEnabled=true fieldType="11" id="international_PhoneNumber_countrycode" valType="number" phoneFormatType="1" placeholder="Mobile Number" required />
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="cn-contactform-input  mb-25">
+                                <label>Subject:<sup class="text-danger">*</sup></label>
+                                <select class="zf-form-sBox" name="Dropdown" checktype="c1" required>
+                                    <option selected="true" value="-Select-">-Select-</option>
+                                    <option value="For&#x20;Purchase">For Purchase</option>
+                                    <option value="For&#x20;Dealership">For Dealership</option>
+                                    <option value="For&#x20;Product&#x20;Sample">For Product Sample</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="cn-contactform-input mb-25">
+                            <label>Message:</label>
+                            <textarea name="MultiLine" checktype="c1" maxlength="65535" placeholder="Enter Your Requirements"></textarea> 
+                        </div>
+                    </div>
+                    <div class="cn-contactform-btn">
+                        <button class="tp-btn-black-md w-100" type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+            </main>
+
+            <footer>
+                <!-- footer area start -->
+                <div class="tp-footer-3-area dark-bg pt-60">
+                    <div class="container">
+                        <div class="row d-flex align-items-end justify-content-center mb-50">
+                            <div class="col-lg-4">
+                                <div class="tp-footer-2-widget">
+                                    <div class="tp-footer-2-widget-newslatter">
+                                        <h4 class="tp-footer-2-widget-title mb-0">Subscribe to our newsletter</h4>
+                                        <label class="text-white">Get Early Access to New Collections and Specials!</label>                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="tp-footer-2-widget footer-col-2-4">
+                                    <div class="tp-footer-2-widget-newslatter text-center">                                        
+                                        <form action="enam-workshop.html#">
+                                            <div class="tp-footer-6-input p-relative d-block d-lg-flex g-2 justify-content-between mt-30">
+                                                <input class="mr-10" type="text" placeholder="Enter Name"
+                                                    required>
+                                                <input type="text" placeholder="Enter Email" required>
+                                                <button class="tp-btn-subscribe" type="submit">Subscribe</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row pt-30">
+                            <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
+                                <div class="tp-footer-3-widget-wrapper">
+                                    <div class="tp-footer-3-widget mb-sm-5 mb-lg-0">
+                                        <h4 class="tp-footer-3-title">Quick Links</h4>
+                                        <div class="tp-footer-3-menu">
+                                            <ul>
+                                                <li><a href="../rubber.html">Home</a></li>
+                                                <li><a href="csr-activities.html">CSR Activities</a></li>
+                                                <li><a href="about.html">About Us</a></li>
+                                                <li><a href="certificates.html">Certificates</a></li>
+                                                <li><a href="testimonials.html">Terstimonial</a></li>
+                                                <li><a href="catalogue.html">E-Catalogue</a></li>
+                                                <li><a href="blog.html">Blogs</a></li>
+                                                <li><a href="contact.html">Contact</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
+                                <div class="tp-footer-3-widget text-md-center footer-col-3-2">
+                                    <div class="tp-footer-3-logo-box">
+                                        <p class="mb-30">Enam Corporation is a top manufacturer &amp; exporter of premium
+                                            rubber mats. We committed to quality, innovation &amp; customer
+                                            satisfaction.
+                                        </p>
+                                        <a class="tp-footer-3-logo p-relative" href="../rubber.html">
+                                            <img src="public/img/enamicon.png" alt="">
+                                        </a>
+                                        <div class="tp-footer-3-social">
+                                            
+                                            <a href="https://www.facebook.com/enamcorporation" target="_blank"><i
+                                                    class="fa-brands fa-facebook-f"></i></a>
+                                            
+                                            <a href="https://www.linkedin.com/in/ketan-patel-enam-group-rubber-mat-stablemat-cowmat-gymmat-cowcomfort-equinemats-rubberflooring/"
+                                                target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                                            <a href="https://www.youtube.com/@enamcorporation" target="_blank"><i
+                                                    class="fa-brands fa-youtube" target="_blank"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
+                                <div class="tp-footer-3-widget-wrapper footer-col-3-3">
+                                    <div class="tp-footer-3-widget mb-30">
+                                        <h4 class="tp-footer-3-title">Contact</h4>
+                                        <div class="tp-footer-2-contact-item">
+                                            <span><a>Dariyalal Square, At- Sakt, above HDFC Bank, Umiya Nagar, Sanala, Morbi, Gujarat 363641</a></span>
+                                        </div>
+                                        <div class="tp-footer-2-contact-item">
+                                            <span>P: <a href="tel:+919316081913">+91 93160 81913</a></span>
+                                            <br>
+                                            <span>E: <a href="https://www.enamcorporation.com/cdn-cgi/l/email-protection#f99c8189968b8db99093988b96d79097"><span class="__cf_email__" data-cfemail="e5809d958a9791a58c8f84978acb8c8b">[email&#160;protected]</span></a></span>
+                                        </div>
+                                    </div>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tp-copyright-2-area tp-copyright-2-bdr-top dark-bg">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-xl-6 col-lg-6">
+                                <div class="tp-copyright-2-left text-center text-lg-start">
+                                    <p>2024 © <a href="../rubber.html" class="text-white">Enam Rubber</a> - All
+                                        rights reserved</p>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6">
+                                <div class="tp-copyright-2-left text-center text-lg-end">
+                                    <p>Powered By <a href="https://technobytesllp.in/" target="_blank"
+                                            class="text-white">Techno Bytes IT Solutions LLP</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- footer area end -->
+
+            </footer>
+        </div>
+    </div>
+
+    <div class="tp-footer-shape-wrap z-index-5 smooth">
+        <a href="public/imgs/Enam-Rubber-Mats-Catalogs-1.pdf" download>
+            <div class="tp-footer-shape p-relative">
+                <img class="img-1" src="public/imgs/company.png" alt="">
+                <img class="img-2" src="public/img/home-01/footer/footer-circle-shape-2.png"
+                    alt="">
+                <span></span>
+            </div>
+        </a>
+    </div>
+
+    <!-- JS here -->
+    
+
+
+    <script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="public/js/vendor/jquery.js"></script>
+    <script src="public/js/bootstrap-bundle.js"></script>
+
+    <script src="public/js/gsap.js"></script>
+    <script src="public/js/gsap-scroll-to-plugin.js"></script>
+    <script src="public/js/gsap-scroll-smoother.js"></script>
+    <script src="public/js/gsap-scroll-trigger.js"></script>
+    <script src="public/js/gsap-split-text.js"></script>
+    <script src="public/js/chroma.min.js"></script>
+
+    
+
+    <script src="public/js/three.js"></script>
+    <script src="public/js/tween-max.js"></script>
+    <script src="public/js/scroll-magic.js"></script>
+
+    <script src="public/js/range-slider.js"></script>
+    <script src="public/js/swiper-bundle.js"></script>
+    <script src="public/js/slick.js"></script>
+    <script src="public/js/magnific-popup.js"></script>
+    <script src="public/js/nice-select.js"></script>
+    <script src="public/js/purecounter.js"></script>
+    <script src="public/js/beforeafter.js"></script>
+    <script src="public/js/isotope-pkgd.js"></script>
+    <script src="public/js/imagesloaded-pkgd.js"></script>
+    <script src="public/js/ajax-form.js"></script>
+    <script src="public/js/webgl.js"></script>
+    <script src="public/js/main.js"></script>
+    <script src="public/js/tp-cursor.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+
+    <script type="text/javascript">
+        (function() {
+            var options = {
+                whatsapp: "+919316081913", // WhatsApp number
+                linkedin: "https://www.linkedin.com/in/ketan-patel-enam-group-rubber-mat-stablemat-cowmat-gymmat-cowcomfort-equinemats-rubberflooring/", // lenkedin
+                call_to_action: "Need Help ?", // Call to action
+                button_color: "#fecc00", // Color of button
+                position: "left", // Position may be 'right' or 'left'
+                order: "whatsapp,linkedin", // Order of buttons
+            };
+            var proto = document.location.protocol,
+                host = "getbutton.io",
+                url = proto + "//static." + host;
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = url + '/widget-send-button/js/init.js';
+            s.onload = function() {
+                WhWidgetSendButton.init(host, proto, options);
+            };
+            var x = document.getElementsByTagName('script')[0];
+            x.parentNode.insertBefore(s, x);
+        })();
+    </script>
+
+
+    <script src="public/js/lightbox.js"></script>
+    <script>
+        jQuery(document).ready(function() {
+            jQuery(".format_title_size").hover(function() {
+                var geturl = jQuery(this).attr('data-src');
+                console.log(geturl)
+                jQuery('.prev_img').attr('src', geturl);
+            });
+        });
+    </script>
+    <script>
+        const phoneInputField = document.querySelector("#phone");
+        const phoneInput = window.intlTelInput(phoneInputField, {
+            initialCountry: "auto",
+            geoIpLookup: function(success, failure) {
+                fetch('https://ipinfo.io/json', {
+                        headers: {
+                            'Accept': 'application/json'
+                        }
+                    })
+                    .then(response => response.json())
+                    .then((response) => {
+                        const countryCode = response && response.country ? response.country : "IN";
+                        success(countryCode);
+                    })
+                    .catch(() => {
+                        success("IN");
+                    });
+            },
+            utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+            // separateDialCode: true,
+        });
+
+        // Listen to the 'countrychange' event and update the input field with the country code
+        phoneInputField.addEventListener("countrychange", function() {
+            const selectedCountryData = phoneInput.getSelectedCountryData();
+            const countryCode = selectedCountryData.dialCode;
+            phoneInputField.value = `+${countryCode} ${phoneInputField.value.replace(/^\+\d+/, '')}`;
+        });
+    </script>
+
+
+
+</body>
+
+</html>

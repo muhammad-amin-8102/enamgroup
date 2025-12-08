@@ -13,13 +13,23 @@
             $(this).addClass("active").siblings().removeClass("active");
         },
     });
-    $(".banner-hover").on("mouseenter", function () {
-        var value = $(this).attr("data-src");
-        document.getElementById("home3-banner-bg").style.background =
-            "linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%) ,url('" +
-            value +
-            "')";
-    });
+    // Removed hover background change to keep HydroWash background visible
+    // $(".banner-hover").on("mouseenter", function () {
+    //     var value = $(this).attr("data-src");
+    //     document.getElementById("home3-banner-bg").style.background =
+    //         "linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%) ,url('" +
+    //         value +
+    //         "')";
+    // });
+    
+    // Keep the original HydroWash background on mouseleave as well
+    // $(".banner-hover").on("mouseleave", function () {
+    //     document.getElementById("home3-banner-bg").style.background =
+    //         "linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%), url('../imgs/hydrowash-bg.png')";
+    //     document.getElementById("home3-banner-bg").style.backgroundSize = "cover";
+    //     document.getElementById("home3-banner-bg").style.backgroundRepeat = "no-repeat";
+    //     document.getElementById("home3-banner-bg").style.backgroundPosition = "center";
+    // });
     $(".services-list ul li").on({
         mouseenter: function () {
             $(".services-list ul li").removeClass("active");

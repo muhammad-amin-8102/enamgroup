@@ -2,11 +2,11 @@
 :root {
     --font-montserrat: "Montserrat", sans-serif;
     --font-marcellus: "Marcellus", serif;
-    --title-color: #101010;
+    --title-color: #3B6F52;
     --white-color: #fff;
     --paragraph-color: #222222;
-    --primary-color: #000;
-    --secondary-color: #fecc00;
+    --primary-color: #3B6F52;
+    --secondary-color: #94C88D;
 }
 * {
     margin: 0;
@@ -1561,7 +1561,8 @@ body.tt-magic-cursor #magic-cursor {
     display: block;
     height: 1px;
     width: 12px;
-    background-color: var(--gray-dark, #000);
+    background-color: var(--gray-dark, 
+#3B6F52);
     transition: all 0.3s ease-out;
 }
 .header-area.style-1
@@ -1578,7 +1579,8 @@ body.tt-magic-cursor #magic-cursor {
     display: block;
     height: 1px;
     width: 12px;
-    background-color: var(--gray-dark, #000);
+    background-color: var(--gray-dark, 
+#3B6F52);
     transition: all 0.3s ease-out;
 }
 .header-area.style-1
@@ -1952,7 +1954,8 @@ body.tt-magic-cursor #magic-cursor {
     position: absolute;
     bottom: -1px;
     left: 0;
-    background: linear-gradient(90deg, #fff, #000, #fff);
+    background: linear-gradient(90deg, #fff, 
+#3B6F52, #fff);
     width: 100%;
     height: 1px;
     transform: scaleX(0);
@@ -2574,7 +2577,8 @@ body.tt-magic-cursor #magic-cursor {
     display: block;
     height: 1px;
     width: 12px;
-    background-color: var(--gray-dark, #000);
+    background-color: var(--gray-dark, 
+#3B6F52);
     transition: all 0.3s ease-out;
 }
 .header-area.style-2
@@ -2591,7 +2595,8 @@ body.tt-magic-cursor #magic-cursor {
     display: block;
     height: 1px;
     width: 12px;
-    background-color: var(--gray-dark, #000);
+    background-color: var(--gray-dark, 
+#3B6F52);
     transition: all 0.3s ease-out;
 }
 .header-area.style-2
@@ -4000,7 +4005,8 @@ body.tt-magic-cursor #magic-cursor {
     display: block;
     height: 1px;
     width: 12px;
-    background-color: var(--gray-dark, #000);
+    background-color: var(--gray-dark, 
+#3B6F52);
     transition: all 0.3s ease-out;
 }
 .header-area.style-4
@@ -4017,7 +4023,8 @@ body.tt-magic-cursor #magic-cursor {
     display: block;
     height: 1px;
     width: 12px;
-    background-color: var(--gray-dark, #000);
+    background-color: var(--gray-dark, 
+#3B6F52);
     transition: all 0.3s ease-out;
 }
 .header-area.style-4
@@ -4867,9 +4874,10 @@ body.tt-magic-cursor #magic-cursor {
 }
 @media (min-width: 992px) {
     .banner1-section .banner-bottom .banner-img img {
-        -o-object-fit: cover;
-        object-fit: cover;
-        min-height: 350px;
+        -o-object-fit: contain;
+        object-fit: contain;
+        width: 100%;
+        height: auto;
     }
 }
 .banner1-section .banner-bottom .banner-right-content {
@@ -7423,7 +7431,7 @@ footer .footer-btm .social-area li a:hover i {
     font-family: var(--font-marcellus);
     font-size: 198px;
     font-weight: 400;
-    background: linear-gradient(180deg, #fecc0047 0%, #fff 100%);
+    background: linear-gradient(180deg, #94C88D47 0%, #fff 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -9198,10 +9206,10 @@ footer .footer-btm .social-area li a:hover i {
 .banner3-section #home3-banner-bg {
     background: linear-gradient(
             180deg,
-            rgba(0, 0, 0, 0.5) 0%,
-            rgba(0, 0, 0, 0.5) 100%
+            rgba(0, 0, 0, 0.3) 0%,
+            rgba(0, 0, 0, 0.3) 100%
         ),
-        url(../imgs/wallclock.jpg);
+        url(../imgs/hydrowash-bg.png);
     height: 100vh;
     min-height: 600px;
     background-size: cover !important;
@@ -9325,7 +9333,8 @@ footer .footer-btm .social-area li a:hover i {
     object-fit: cover;
 }
 .eg-card3.two .card-content {
-    background: linear-gradient(357deg, #000 1.72%, rgba(0, 0, 0, 0) 49.89%);
+    background: linear-gradient(357deg, 
+#3B6F52 1.72%, rgba(0, 0, 0, 0) 49.89%);
     position: absolute;
     left: 0;
     top: 0;
@@ -9396,7 +9405,8 @@ footer .footer-btm .social-area li a:hover i {
     }
 }
 .eg-card3.three .card-content {
-    background: linear-gradient(357deg, #000 1.72%, rgba(0, 0, 0, 0) 49.89%);
+    background: linear-gradient(357deg, 
+#3B6F52 1.72%, rgba(0, 0, 0, 0) 49.89%);
     position: absolute;
     left: 0;
     top: 0;
@@ -17354,7 +17364,8 @@ footer .footer-btm .social-area li a:hover i {
     .nav-item
     .nav-link.active {
         background-color: #fff;
-        color: #000;
+        color: 
+#3B6F52;
 }
 @media (max-width: 991px) {
     .industry-details-nav-area
@@ -17539,7 +17550,8 @@ footer .footer-btm .social-area li a:hover i {
 }
 .csr_activity .grid--content .column--wrapper .post--item iframe,
 .csr_activity .grid--content .column--wrapper .post--item img {
-  box-shadow: 0 0 3px 2px #00000021;
+  box-shadow: 0 0 3px 2px 
+#3B6F5200021;
   border-radius: 10px;
   width: 100%;
   margin-bottom: 18px;
@@ -17597,11 +17609,11 @@ footer .footer-btm .social-area li a:hover i {
 .contact_details .people-card2 .people-content .contact-area .contact-number .icon i {
     font-size: 20px;
 }
-.why_ijaro .eg-card-2 {
+.why_enam .eg-card-2 {
     padding: 30px 20px;
     gap: 20px;
 }
-.why_ijaro .eg-card-2 .content h5 {
+.why_enam .eg-card-2 .content h5 {
     font-weight: 600;
 }
 .partnering_with_us {
