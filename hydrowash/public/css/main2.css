@@ -3783,6 +3783,11 @@ color:
   margin-bottom: 65px;
 }
 
+/* Hide offcanvas product gallery photos in navbar on all viewports */
+.tp-offcanvas-gallery {
+  display: none !important;
+}
+
 .tp-offcanvas-contact {
   margin-bottom: 55px;
 }
