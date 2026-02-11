@@ -23,18 +23,40 @@
     <title>enamcorporation</title>
     <link rel="icon" href="public/imgs/favicon.png" type="image/gif" sizes="20x20">
     <style>
-        /* Reduce banner section height */
+        /* Banner section – reduced top height; enough for heading and description */
         .banner3-section {
-            min-height: 400px !important;
-            padding: 40px 0 !important;
+            min-height: 160px !important;
+            padding: 20px 0 30px !important;
         }
         .banner3-section .swiper-slide {
             height: auto !important;
-            min-height: 300px !important;
+            min-height: 340px !important;
         }
         .eg-card3.banner-hover {
-            min-height: 300px !important;
-            padding: 30px !important;
+            min-height: 340px !important;
+            padding: 24px 40px 50px !important;
+            align-items: flex-end;
+        }
+        /* Prevent title from being pushed down and clipping */
+        .eg-card3.banner-hover .card-content .catgory-and-title {
+            transform: translateY(0);
+        }
+        .eg-card3.banner-hover:hover .card-content .catgory-and-title {
+            transform: translateY(0);
+        }
+        /* Ensure description paragraph is not cut off – space below last line */
+        .eg-card3.banner-hover .card-content {
+            overflow: visible;
+            padding-bottom: 0;
+        }
+        .eg-card3.banner-hover .card-content p {
+            transform: translateY(0);
+            opacity: 1;
+            margin-bottom: 0;
+            padding-bottom: 8px;
+        }
+        .eg-card3.banner-hover:hover .card-content p {
+            transform: translateY(0);
         }
     </style>
 </head>
